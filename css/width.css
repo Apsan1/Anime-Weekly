@@ -1,0 +1,36 @@
+
+link
+{
+   color:aqua;
+   text-decoration: none; 
+   background-color: none;
+}
+a:link { text-decoration: rgb(159, 113, 197); }
+
+
+a:visited { text-decoration: burlywood; }
+
+
+a:hover { text-decoration: wheat; }
+
+
+a:active { text-decoration: none; }
+
+div {
+    width: 1200px;
+    margin: auto;
+    border: 1px solid rgba(101, 110, 112, 0.993);
+    background-color: black;
+  }
+.container
+{
+    margin: auto;
+    width: 90%;
+    padding: 1px;
+}
+
+.text
+{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

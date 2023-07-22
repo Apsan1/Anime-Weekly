@@ -1,0 +1,19 @@
+
+div{
+    width: 1200px;
+    margin: auto;
+    border: 1px solid rgba(101, 110, 112, 0.993);
+    background-color: black;
+    background-blend-mode: overlay;   
+  }
+.container
+{
+    margin: auto;
+    width: 95%;
+    padding: 1px;
+}
+.text
+{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

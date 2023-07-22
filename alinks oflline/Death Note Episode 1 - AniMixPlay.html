@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://animixplay.to/v1/death-note -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="AniMixPlay">
+<meta name="apple-mobile-web-app-title" content="AniMixPlay">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+<meta property="og:image" content="https://cdn.myanimelist.net/images/anime/9/9453.jpg">
+<meta property="og:title" content="Death Note - AniMixPlay">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#191919">
+<meta name="referrer" content="no-referrer">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="https://animixplay.to/icon.png">
+<link rel="apple-touch-icon" href="https://animixplay.to/icon.png">
+<link rel="manifest" href="https://animixplay.to/assets/s/manifest.json">
+<title>Death Note Episode 1 - AniMixPlay</title>
+<script async="" src="./Death Note Episode 1 - AniMixPlay_files/analytics.js.download"></script><script src="./Death Note Episode 1 - AniMixPlay_files/jquery.min.js.download" defer=""></script>
+<link rel="stylesheet" href="./Death Note Episode 1 - AniMixPlay_files/fonts.min.css">
+<link rel="stylesheet" type="text/css" href="./Death Note Episode 1 - AniMixPlay_files/style.min.css">
+<script type="text/javascript" src="./Death Note Episode 1 - AniMixPlay_files/v1.min.js.download" defer=""></script>
+<script type="text/javascript" src="./Death Note Episode 1 - AniMixPlay_files/common.min.js.download" defer=""></script>
+<meta property="og:description" content="Watch Death Note full episodes in HD quality for free. Stream Death Note online."><meta name="description" content="Watch Death Note full episodes in HD quality for free. Stream Death Note online.">
+<script src="./Death Note Episode 1 - AniMixPlay_files/count-data.js.download"></script><script src="./Death Note Episode 1 - AniMixPlay_files/adtags.js.download"></script></head>
+<body>
+<div id="coverlight"></div>
+<div id="loadcontainer" style="display: none;"><div class="loadindicator"></div></div>
+<div class="toppart">
+<div id="playertopmenu" class="floattopsearch">
+<a id="backicon" onclick="window.history.back()"><i class="glyphicon glyphicon-chevron-left"></i></a>
+<a id="homeicon" href="https://animixplay.to/"><i class="glyphicon glyphicon-home"></i></a>
+<div id="searchbox">
+<input type="text" style="display:none">
+<input type="password" style="display:none">
+<a href="https://animixplay.to/"><img class="webtitle" alt="AnimixPlay" src="./Death Note Episode 1 - AniMixPlay_files/logo.webp"></a>
+<input class="form-control searchbar" pattern=".{3,}" placeholder="Search" id="q" type="search" autocomplete="off" onfocus="searchfocused()" onblur="searchblur()">
+<button id="searchbutton" onclick="dosearchfromplayer()"><i class="glyphicon glyphicon-search"></i></button>
+<a class="topmenubtn" title="Random anime" href="https://animixplay.to/random"><i class="glyphicon glyphicon-random"></i>Random</a>
+<a class="topmenubtn" title="A-Z List" href="https://animixplay.to/list">A-Z List</a>
+</div>
+<span id="usernametop">Apsan</span>
+<button id="menumobilebtn2" onclick="showmobilemenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
+<button id="showsearchbtn" onclick="togglesearch()"><i class="glyphicon glyphicon-search"></i></button>
+</div>
+</div>
+<div class="quicksearchcontainer absolutee"><div class="resultcontainer sanimepage"><div id="fullresultbtn">
+<a onclick="cSearch(&#39;full&#39;)">Full</a><a onclick="cSearch(&#39;gogo&#39;)">GOGO</a><a onclick="cSearch(&#39;api&#39;)">API</a><a onclick="cSearch(&#39;al&#39;)">AL</a><a onclick="cSearch(&#39;rush&#39;)">RUSH</a><a onclick="cSearch(&#39;mal&#39;)">MAL</a></div>
+<ul class="quickresult"></ul>
+</div></div>
+<div id="tips"></div>
+
+<div class="playersidebar"><i class="closebtn glyphicon glyphicon-remove" id="menuclose" onclick="showmobilemenu()"></i>
+<div class="rightcard">
+    <div class="loadingreplacement" style="display: none;">Loading...</div>
+    <div class="usercard" style="display: block;">
+        <div id="userpanel" style="display: block;">
+            <span class="usernameplace">Apsan</span><span id="premiumcrown"></span><br><br>
+            <div id="iconmenu">
+                <a class="linkpersonal glyphicon glyphicon-th-list" href="https://animixplay.to/user/Apsan"><br><span class="subtextmenuicon">User Panel</span></a>
+                <i class="autotrackbtn glyphicon glyphicon-refresh" onclick="autotrackbtnclick();"><br><span class="subtextmenuicon">Autotracking</span></i>
+                <i class="glyphicon glyphicon-off" onclick="logout();"><br><span class="subtextmenuicon">Logout</span></i>
+                <a class="linkhome glyphicon glyphicon-search" href="https://animixplay.to/"><br><span class="subtextmenuicon">Explore</span></a>
+                <i class="linkhome glyphicon glyphicon-lock" onclick="openchangepass();"><br><span class="subtextmenuicon">Account</span></i>
+                <i class="linkhome glyphicon glyphicon-wrench" onclick="openpremiumpanel();"><br><span class="subtextmenuicon">Settings</span></i>
+            </div>
+            <div id="logoutmsg"></div>
+        </div>
+        <div id="loginform" style="display: none;">
+            <div class="flexrightcard">
+                <div class="halfleft">
+                    <input class="logininput" placeholder="Username" id="username" type="text" autocomplete="username">
+                    <input class="logininput" placeholder="Password" id="password" type="password" autocomplete="current-password">
+                    <input type="checkbox" value="" id="rememberme" checked="">
+                    <label class="form-check-label rememberlabel" for="rememberme">
+                    Remember me
+                    </label>
+                </div>
+                <div class="halfright">
+                    <div class="loginbtn" onclick="login();">Login</div>
+                    <a class="openregisterbtn" onclick="openregister();">Register</a>
+                </div>
+            </div>
+            <div id="statuslogin"></div>
+        </div>
+        <form id="registerform" style="display: none;">
+            <a class="openloginbtn" onclick="backlogin();">&lt; back</a><br><br>
+            <span id="alretinfo">Note: we don't use email (no reset password), to avoid forgot use password manager or google sign-in</span>
+            <div id="formregister">
+                <input class="logininput" placeholder="Username" id="usernameregis" type="text" autocomplete="off">
+                <div class="formsubtext">letters/numbers/_.-| max 25 chars</div>
+                <input class="logininput" placeholder="Password" id="passwordregis" type="password" autocomplete="off">
+                <div class="formsubtext">any 4 - 200 chars</div>
+                <input class="logininput" placeholder="Confirm Password" id="confirm" type="password" autocomplete="off">
+                <div class="formsubtext">retype password</div>
+                <div class="g-recaptcha" data-theme="dark" data-sitekey="6LfYUUceAAAAAEC5G8ZmQEqELhXx55thJrVKDrew"></div>
+            </div>
+            <div id="statusregister"></div>
+            <div class="registerbtn" onclick="register();">Register</div>
+        </form>
+        <div id="gsignsection"><br>
+            <div class="subtitleright" style="border-bottom:none"></div>
+            <div id="gconnectbtn"><img id="gconnectbtnimg" onclick="connectGoogle()" src="./Death Note Episode 1 - AniMixPlay_files/gsign.jpg"></div>
+        </div>
+        <div id="changepassform">
+            <a class="openloginbtn" onclick="backlogin2();">Back</a>
+            <br><br><br><br><br>
+            <span id="alretinfo">Account setting moved to <a id="accountmovelink" href="https://animixplay.to/user/Apsan?openmenu=yes">User Panel</a>.</span>
+            <br><br><br>
+        </div>
+        <div id="premiumpanel">
+            <a class="openloginbtn" onclick="backlogin3();">Back</a><br><br>
+            <span id="premiumnotice">This set default setting when page load.<br>Only donators can change these settings</span>
+            <div id="iconmenu">
+                <i class="glyphicon glyphicon-transfer" id="autoproxybtn" onclick="toggleAutoProxy();"><br><span class="subtextmenuicon">Auto Switch</span></i>
+                <i class="glyphicon glyphicon-subtitles" id="preferbtn" onclick="togglePreferSub();"><br><span class="subtextmenuicon">Default</span></i>
+                <i class="glyphicon glyphicon-sunglasses" id="autolightsbtn" onclick="toggleAutoLightoff();"><br><span class="subtextmenuicon">Auto Lights</span></i>
+                <i class="glyphicon glyphicon-flash" id="userautoplaybtn" onclick="toggleDefaultAutoplay();"><br><span class="subtextmenuicon">Default</span></i>
+                <i class="glyphicon glyphicon-time" id="autoplaybackbtn" onclick="togglePlaybackSave();"><br><span class="subtextmenuicon">Playback</span></i>
+                <i class="glyphicon glyphicon-comment" id="autocommentbtn" style="color:gray" onclick="toggleAutoComment();"><br><span class="subtextmenuicon">Autoload</span></i>
+            </div>
+            <div id="logoutmsg"></div>
+        </div>
+    </div>
+</div>
+<div class="rightcardCenter" id="manualTrackingCard" style="display: block;">
+    <div class="subtitleright" id="trackingTitle">Death Note</div>
+    <span id="watchingstatus">Status : Untracked</span><div onclick="deleteanime(this)" id="untrackbtn" style="display: none;">untrack <i class="glyphicon glyphicon-remove"></i></div>
+    <select id="manualTrackingSelect" style="display: block;">
+        <option value="Watching">Watching</option>
+        <option value="Planned">On-Hold</option>
+        <option value="PTW">Plan to Watch</option>
+        <option value="Finished">Finished</option>
+    </select> 
+    <div class="flexrightcard">
+        <div class="halfleft2">
+            Current : <div id="progressnumber">1</div>
+        </div>
+        <div class="halfright">
+            Tracked : <div id="tracknumber">0</div>
+        </div>
+    </div>
+    <button id="manualtrackbtn" onclick="startTrack();" style="cursor: pointer; opacity: 1;">Start tracking</button>
+</div>
+<div id="infocard" class="rightcard">
+    <div class="subtitleright">Info</div>
+    Follow <a href="https://twitter.com/AniMixPlay" target="_blank"><img src="./Death Note Episode 1 - AniMixPlay_files/favicons"> Twitter</a> for website updates.<br>
+    Read more info in <a href="https://animixplay.to/faq.html" target="_blank">FAQ</a> page<br>
+    <br>
+    <div id="playerbottomicon">
+        Donate <a href="https://animixplay.to/donate.html" title="Bitcoin" target="_blank"><i class="customicon bitcoinicon"></i></a><a href="https://animixplay.to/donate.html" title="Ethereum" target="_blank"><i class="customicon ethereumicon"></i></a>
+    </div>
+</div></div>
+<div id="playerleftsidebar">
+<button id="recomendedclosebtn" onclick="showrecomendmenu()"><i class="glyphicon glyphicon-arrow-left"></i></button>
+<div id="moreinfobtn" onclick="editStreams()"><a>Edit Streams</a></div>
+<div id="recomendedlist"></div>
+</div>
+<div class="playerpage" style="background-color: rgb(35, 35, 35);">
+<div class="subpart eptitle" style="display: block;">
+<div id="eptitle"><span id="eptitleplace">EP 1</span><span class="altsourcenotif">Internal Player</span></div>
+<div id="toprightplayer">
+<i onclick="switchToLive();" class="proxybtn glyphicon glyphicon glyphicon-transfer" style="color: white;"><span class="tooltiptext">Switch</span></i>
+<i onclick="lighttoggle();" class="lightbtn glyphicon glyphicon-sunglasses"><span class="tooltiptext">Lights</span></i>
+<i onclick="download();" class="dlbutton glyphicon glyphicon-download-alt"><span class="tooltiptext">Download</span></i>
+<i onclick="toggleautoplay();" class="autoplaybutton glyphicon glyphicon-flash"><span class="tooltiptext">Autoplay</span></i>
+<i onclick="playnext()" id="nextbtn" class="glyphicon glyphicon-forward" style="cursor: pointer;"><span class="tooltiptext">Next ep</span></i>
+</div>
+</div>
+<div id="loadcontainer2" style="display: none; overflow: hidden;"><div class="loadindicator"></div></div>
+<div id="iframecontainer">
+<iframe id="iframeplayer" allowfullscreen="true" scrolling="no" src="./Death Note Episode 1 - AniMixPlay_files/liveTVRBMk1qUT1MVFhzM0dyVTh3ZTlPVFZSQk1rMXFVVDA9.html" style="min-height: 0px; display: block;"></iframe>
+</div>
+<select id="srcselect" onchange="srcChange()" style="display: none;"></select>
+<div id="lowerplayerpage">
+<div id="aligncenter" style="text-align: left; margin-top: unset;">
+<div id="streamtypecontainer">
+<div id="streamtype">GOGO Stream</div><div id="showrecomendbtn" onclick="showrecomendmenu();" style="display: inline-block;"><i class="glyphicon glyphicon-cog"></i> Change</div>
+<div id="sharebtn"><i class="glyphicon glyphicon-share-alt"></i> <span id="shareText" style="display: inline;">Share</span></div>
+<div id="openreport" onclick="reportError()" style="display: block;"><i class="glyphicon glyphicon-exclamation-sign"></i> <span class="reportText">Report</span></div>
+<div id="reloadbtn" style="display: block;"><i class="glyphicon glyphicon-repeat"></i> <span class="reportText">Reload</span></div>
+<div id="screenshotbtn" style="display: block;"><i class="glyphicon glyphicon-camera"></i></div><div id="widescreenbtn"><i class="glyphicon glyphicon-fullscreen"></i></div></div>
+<a id="animebtn" href="https://animixplay.to/anime/1535" style="display: inline;"><svg stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25" width="25" id="foldersvg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"></path></svg></a>
+<span class="animetitle">Death Note</span><button id="trackbtn" onclick="startTrack();" style="display: inline;"><i class="glyphicon glyphicon-plus"></i> Watchlist</button> <button id="followbtn" onclick="followtoggle();"><i class="glyphicon glyphicon-bell"></i> Follow</button><br>
+<div id="animeimage"></div>
+<span id="notice" style="display: none;"><br><br><br>Please enable javascript<br><br><br></span>
+</div>
+<div id="epslistplace" style="display: grid;"><button class="playbutton btn btn-primary" onclick="openiframe(this,1)" disabled="">1</button><button class="playbutton btn btn-primary" onclick="openiframe(this,2)">2</button><button class="playbutton btn btn-primary" onclick="openiframe(this,3)">3</button><button class="playbutton btn btn-primary" onclick="openiframe(this,4)">4</button><button class="playbutton btn btn-primary" onclick="openiframe(this,5)">5</button><button class="playbutton btn btn-primary" onclick="openiframe(this,6)">6</button><button class="playbutton btn btn-primary" onclick="openiframe(this,7)">7</button><button class="playbutton btn btn-primary" onclick="openiframe(this,8)">8</button><button class="playbutton btn btn-primary" onclick="openiframe(this,9)">9</button><button class="playbutton btn btn-primary" onclick="openiframe(this,10)">10</button><button class="playbutton btn btn-primary" onclick="openiframe(this,11)">11</button><button class="playbutton btn btn-primary" onclick="openiframe(this,12)">12</button><button class="playbutton btn btn-primary" onclick="openiframe(this,13)">13</button><button class="playbutton btn btn-primary" onclick="openiframe(this,14)">14</button><button class="playbutton btn btn-primary" onclick="openiframe(this,15)">15</button><button class="playbutton btn btn-primary" onclick="openiframe(this,16)">16</button><button class="playbutton btn btn-primary" onclick="openiframe(this,17)">17</button><button class="playbutton btn btn-primary" onclick="openiframe(this,18)">18</button><button class="playbutton btn btn-primary" onclick="openiframe(this,19)">19</button><button class="playbutton btn btn-primary" onclick="openiframe(this,20)">20</button><button class="playbutton btn btn-primary" onclick="openiframe(this,21)">21</button><button class="playbutton btn btn-primary" onclick="openiframe(this,22)">22</button><button class="playbutton btn btn-primary" onclick="openiframe(this,23)">23</button><button class="playbutton btn btn-primary" onclick="openiframe(this,24)">24</button><button class="playbutton btn btn-primary" onclick="openiframe(this,25)">25</button><button class="playbutton btn btn-primary" onclick="openiframe(this,26)">26</button><button class="playbutton btn btn-primary" onclick="openiframe(this,27)">27</button><button class="playbutton btn btn-primary" onclick="openiframe(this,28)">28</button><button class="playbutton btn btn-primary" onclick="openiframe(this,29)">29</button><button class="playbutton btn btn-primary" onclick="openiframe(this,30)">30</button><button class="playbutton btn btn-primary" onclick="openiframe(this,31)">31</button><button class="playbutton btn btn-primary" onclick="openiframe(this,32)">32</button><button class="playbutton btn btn-primary" onclick="openiframe(this,33)">33</button><button class="playbutton btn btn-primary" onclick="openiframe(this,34)">34</button><button class="playbutton btn btn-primary" onclick="openiframe(this,35)">35</button><button class="playbutton btn btn-primary" onclick="openiframe(this,36)">36</button><button class="playbutton btn btn-primary" onclick="openiframe(this,37)">37</button></div>
+<div id="flexbottom" style="display: flex;">
+<div id="bottomleft">
+<span id="genres">Genres : <a href="https://animixplay.to/?genre=Supernatural">Supernatural</a>, <a href="https://animixplay.to/?genre=Suspense">Suspense</a>, <a href="https://animixplay.to/?genre=Psychological">Psychological</a>, <a href="https://animixplay.to/?genre=Shounen">Shounen</a></span><br>
+<span id="status">Status : Completed</span>
+<span id="animeinfobottom" style="display: block;"><a id="animebtn2" href="https://animixplay.to/anime/1535">More info</a></span>
+</div>
+<div class="epsavailable">
+Ep total : <span id="epsavailable">37</span> <a onclick="updatecheck()" id="updatebtn"><i class="glyphicon glyphicon-refresh"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div id="flexstreambottom">
+<div style="flex:1">
+<div id="disquscommentnew" style="display: block;">
+<button id="showcommentbtn" onclick="showcomment()">Show 469 Comments</button>
+<div id="disqus_thread"></div>
+</div>
+<div id="belowcomment"></div>
+</div>
+
+</div>
+<div id="belowbox"></div>
+<div id="notifiaction" style="top: 130px;">Test</div>
+<script type="text/javascript">
+    var malid = '1535';
+    var copt = '#gh=goload.pro'; //#recmanga
+    var utoken = 'lrSesoAk8o';
+    var lastAdded = '2021-01-09 23:53:23';
+</script>
+
+
+<a id="opensidebarbtn" style="display: block;"><i class="glyphicon glyphicon-chevron-left"></i></a><div id="backtotopbtn" style="opacity: 0;"><i class="glyphicon glyphicon-menu-up"></i></div></body></html>
